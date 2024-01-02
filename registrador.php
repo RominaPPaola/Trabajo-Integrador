@@ -24,11 +24,7 @@ if (isset($_POST['register'])) {
 	    	<h3 class="bad"><center>¡Ups ha ocurrido un error!</center></h3>
            <?php
 	    }
-    }   else {
-	    	?> 
-	    	<h3 class="bad"><center>¡Por favor complete los campos!</center></h3>
-           <?php
-    }
+    }   
 }
 
 ?>
