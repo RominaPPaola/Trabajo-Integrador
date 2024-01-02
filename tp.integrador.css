@@ -1,0 +1,138 @@
+:root{
+    --colorfuente: rgb(180, 176, 176); /*declaro una variable*/
+  
+}
+/*barra griz de navegacion*/
+.container-fluid{
+    background-color: rgba(62, 62, 66, 0.247);
+    padding: 0%;
+    border:0%;
+    margin: 0%;
+}
+.navbar-brand{
+    color: white;
+}
+
+/*Le doy su estilo a los botones de la barra de navegacion */
+.b1{
+    color: white;  
+}
+.b2, .b3, .b4{
+    color:var(--colorfuente);   
+}
+.b5{
+    color:rgb(44, 179, 55);   
+}
+
+/*disminuyo el brillo y tengo una imagen más opaca*/
+.card-imagen-ba1{
+    filter: brightness(0.7); 
+}
+.texto-sobre-ba1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align:end;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.text-center{
+    margin: 2%;
+}
+h2{
+    font-weight:bold;
+}
+
+/*Contenedor de los tres oradores*/
+.formCar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small ;
+}
+.w-auto{
+    text-align-last: center;
+}
+
+/*seccion imagen y texto 50%*/
+
+/* Estilos de la imagen */
+.section-honolulu{
+    display: flex;
+    max-width: auto; /* Ancho máximo de la sección-honolulu*/
+}
+
+/* Estilos de la imagen honolulu */
+.honolulu{
+    width: 100%; /* La imagen ocupa la mitad del contenedor */
+    height:auto;
+    margin-block: 30px;
+}
+/* Estilos del texto en la tarjeta*/
+.texto-de-tarjeta {
+    width: 100%;/* El texto ocupa la mitad del contenedor */
+    background-color:rgb(69, 68, 73); /* Color de fondo */
+    color: white; /* Color de parrafo */
+    font-size: 18px; /* Tamaño de texto */
+    padding: 20px; /* Espacio que separa el texto de la imagen */
+    box-sizing:initial; /* Incluye el padding en el ancho */
+    margin-block: 30px;
+    max-width: 50%; /* aqui se limita el ancho máximo del texto al 50% del contenedor de la tarjeta */
+}
+
+ /*El formulario*/
+.form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+/*boton verde de enviar*/
+.d-grid{
+    background: rgb(156, 241, 70);
+    color: white;
+    pointer-events: painted;
+}
+
+#volver-arriba {
+    margin-left: 10%;
+}
+
+/*barra final*/
+.navbar{
+    display: flex; /*se utiliza para convertir el elemento <nav> en un contenedor flexible.*/
+    justify-content:center; /*se utiliza para centrar horizontalmente los elementos hijos dentro del contenedor <nav>.*/
+    align-items: center; /*se utiliza para centrar verticalmente los elementos hijos dentro del contenedor <nav>*/
+}
+
+
+
+
+/*.container {
+    background-image: url('ba1.jpg');
+    background-size: 100% 100%;
+    height: 500px;
+   
+    color: white;
+    text-align: right;
+    padding: 60px;
+}*/
+
+/*.p {  Estilos para el texto 
+    font-size: 19px;
+}*/
+/*.buttons{ Estilos para los botones
+    text-align: right;
+    margin-top: 20px;
+    padding: 40px;
+}*/
+
+/*.texot{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.flex-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}*/

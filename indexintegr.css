@@ -1,0 +1,94 @@
+:root{
+    --colorfuente: rgb(180, 176, 176); /*declaro una variable*/
+  
+}
+/*barra griz de navegacion*/
+.container-fluid{
+    background-color: rgba(62, 62, 66, 0.247);
+    padding: 0%;
+    border:0%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.navbar-brand{
+    color: white;
+}
+
+/*Le doy estilo a los botones de la barra de navegacion */
+.b1{
+    color: white;  
+}
+.b2, .b3, .b4{
+    color:var(--colorfuente);   
+}
+.b5{
+    color:rgb(44, 179, 55);   
+}
+
+/*Contenedor de los tres descuentos*/
+.container-fluid-caja0{
+    padding: 3% ;
+}
+#parrafo{
+    font-size: medium;
+}
+.formCar{
+    display: flex; /*se utiliza para convertir el elemento <nav> en un contenedor flexible.*/
+    align-items: center;
+    justify-content: center; /*se utiliza para centrar horizontalmente los elementos hijos dentro del contenedor <nav>.*/
+    font-size: small ;
+    text-align-last: center;    
+}
+#caja1{
+    border-color: blue;
+    border-radius: 0%;
+}
+#caja2{
+    border-color: green;
+    border-radius: 0%;
+}
+#caja3{
+    border-color: rgb(255, 223, 39);
+    border-radius: 0%;
+}
+
+ /*El formulario*/
+ .form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.w-auto{
+    text-align-last: center;
+}
+/*boton celeste de pagar*/
+.btn-green1{
+    background-color: rgb(174, 223, 245); 
+    text-align: justify; 
+    width: 100%;
+    pointer-events:painted ;
+}
+/*botones verdes*/
+.btn-primary{
+    background: rgb(156, 241, 70);
+    color: black;
+    border-color: rgb(156, 241, 70) ;
+    width: 50%; 
+    height:fit-content;
+    display: inline-block; 
+    text-align:center;   
+}
+.row-cols-md-3{
+    display: flex; /*se utiliza para convertir el elemento <nav> en un contenedor flexible.*/
+    justify-content:center; /*se utiliza para centrar horizontalmente los elementos hijos dentro del contenedor <nav>.*/
+    
+}
+
+
+/*barra final*/
+.navbar{
+    display: flex; /*se utiliza para convertir el elemento <nav> en un contenedor flexible.*/
+    justify-content:center; /*se utiliza para centrar horizontalmente los elementos hijos dentro del contenedor <nav>.*/
+    align-items: center; /*se utiliza para centrar verticalmente los elementos hijos dentro del contenedor <nav>*/
+}
